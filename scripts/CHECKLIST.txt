@@ -1,0 +1,16 @@
+KARTA: ______________________
+Projekt: ______________________
+Data i wersja: ________________
+Link do obrazu: _______________
+SHA256: ______________________
+Raspberry Pi startuje: TAK/NIE
+Wi-Fi działa: TAK/NIE
+SSH/web panel działa: TAK/NIE
+HeadRush Core ALSA wykryty: TAK/NIE
+JACK audio IN/OUT działa: TAK/NIE
+Sample rate: _________________
+Buffer/Periods: ______________
+XRUN podczas 30-min grania: ___
+Autostart po restarcie: TAK/NIE
+Ocena użyteczności: __________
+Uwagi: _______________________

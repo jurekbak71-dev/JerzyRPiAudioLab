@@ -1,0 +1,14 @@
+*.img
+*.img.xz
+*.iso
+*.zip
+*.tar.gz
+*.wav
+*.aif
+*.sf2
+*.sfz
+*.so
+/build/
+/.venv/
+__pycache__/
+.DS_Store

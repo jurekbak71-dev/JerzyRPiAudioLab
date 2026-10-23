@@ -1,0 +1,70 @@
+{
+  "project": "JerzyRPiAudioLab",
+  "board": "Raspberry Pi 4 Model B",
+  "last_research_date": "2026-10-23",
+  "cards": [
+    {
+      "id": "CARD-00",
+      "slug": "jerzy-multifx",
+      "upstream": "https://github.com/jurekbak71-dev/JerzyMemoryDelay",
+      "kind": "existing-system",
+      "priority": 0,
+      "status": "tested-by-owner",
+      "headrush_verified": true
+    },
+    {
+      "id": "CARD-01",
+      "slug": "pipedal",
+      "upstream": "https://github.com/rerdavies/pipedal",
+      "kind": "install-on-raspberry-pi-os",
+      "priority": 1,
+      "status": "research",
+      "headrush_verified": false
+    },
+    {
+      "id": "CARD-02",
+      "slug": "zynthian",
+      "upstream": "https://zynthian.org/",
+      "kind": "bootable-distro-image",
+      "priority": 2,
+      "status": "research",
+      "headrush_verified": false
+    },
+    {
+      "id": "CARD-03",
+      "slug": "patchbox-modep",
+      "upstream": "https://blokas.io/patchbox-os/",
+      "kind": "bootable-distro-image",
+      "priority": 3,
+      "status": "research-stale-official-image",
+      "headrush_verified": false
+    },
+    {
+      "id": "CARD-04",
+      "slug": "camilladsp",
+      "upstream": "https://www.camilladsp.com/",
+      "kind": "install-on-raspberry-pi-os",
+      "priority": 4,
+      "status": "research",
+      "headrush_verified": false
+    },
+    {
+      "id": "CARD-05",
+      "slug": "minidexed",
+      "upstream": "https://github.com/probonopd/MiniDexed",
+      "kind": "bare-metal-boot-files",
+      "priority": 5,
+      "status": "research-usb-audio-uncertain",
+      "headrush_verified": false
+    },
+    {
+      "id": "CARD-06",
+      "slug": "puredata-supercollider",
+      "upstream": "https://puredata.info/",
+      "kind": "install-on-raspberry-pi-os",
+      "priority": 6,
+      "status": "research",
+      "headrush_verified": false
+    }
+  ]
+}
