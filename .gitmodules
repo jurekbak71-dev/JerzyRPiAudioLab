@@ -1,0 +1,4 @@
+[submodule "projects/JerzyMultiFX"]
+	path = projects/JerzyMultiFX
+	url = https://github.com/jurekbak71-dev/JerzyMemoryDelay.git
+	branch = feature/jerzy-multifx-v04-dual-ir-midi
