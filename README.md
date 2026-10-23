@@ -2,6 +2,17 @@
 
 Osobne projekty audio na Raspberry Pi 4B, uruchamiane z **osobnych kart microSD**. Ten katalog nie ingeruje w działający Jerzy MultiFX i HeadRush Core.
 
+## Jerzy MultiFX v0.4 — najnowszy projekt własny
+
+**Kod źródłowy jest podłączony jako [submodule projects/JerzyMultiFX](projects/JerzyMultiFX)**, wskazujące na wersję rozwojową 0.4 w repo JerzyMemoryDelay. Po `git clone --recurse-submodules` można rozwijać całość w ramach laboratorium RPi.
+
+- Dwa silniki: gitara z 13 modułami efektów i samogeneratywny BassAmbient (bas/pady/Krell).
+- CAB/IR Loader z dwoma IR WAV na końcu toru gitary, **przed wspólnym mikserem**.
+- MIDI Learn dla efektów, syntezatora i miksera, sterowanie dotykowe iPhone/iPad.
+- Instalacja testowa v0.4: osobne usługi i panel `http://10.42.0.1:8092/` — **nie rusza działającej karty v0.2**.
+
+[Dokumentacja v0.4 i instalacja offline](docs/MULTIFX4.md) · [PR rozwojowy](https://github.com/jurekbak71-dev/JerzyMemoryDelay/pull/4)
+
 ## Sprzęt docelowy
 - Raspberry Pi 4 Model B (64-bit, gdy projekt obsługuje Linux)
 - HeadRush Core jako USB Audio, już sprawdzony z ALSA/JACK w Jerzy MultiFX
